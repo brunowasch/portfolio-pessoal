@@ -35,6 +35,11 @@ a:hover {
   transition: color 0.3s ease;
 }
 
+.nav-link.active-section {
+  color: #007bff !important;
+  font-weight: 600;
+}
+
 .nav-link::after {
   content: "";
   position: absolute;

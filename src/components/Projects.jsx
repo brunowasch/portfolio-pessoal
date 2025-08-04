@@ -9,7 +9,7 @@ function Projects() {
     <section
       className="container my-5 px-3 px-md-4"
       id="Projects"
-      style={{ paddingTop: '6rem' }}
+      style={{ paddingTop: '8rem', paddingBottom: '6rem' }}
     >
       <h3 className="fw-bold mb-4">
         {idiom === 'en' ? 'My Projects' : 'Meus Projetos'}

@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useIdiom } from '../hooks/useIdiom';
 
 function Contact() {
@@ -8,7 +9,7 @@ function Contact() {
     <section
       className="container my-5 px-3 px-md-4"
       id="Contact"
-      style={{ paddingTop: '15rem' }}
+      style={{ paddingTop: '8rem' }}
     >
       <div className="container text-justify">
         <h3 className="fw-bold mb-3">
