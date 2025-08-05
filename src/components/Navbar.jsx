@@ -10,12 +10,15 @@ function Navbar() {
   const handleScroll = () => {
     const sections = document.querySelectorAll('section');
     let currentSection = '';
+    const scrollPoint = window.innerHeight * 0.6;
+
     sections.forEach(section => {
       const rect = section.getBoundingClientRect();
-      if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+      if (rect.top <= scrollPoint && rect.bottom >= scrollPoint) {
         currentSection = section.id;
       }
     });
+
     setActiveSection(currentSection);
   };
 

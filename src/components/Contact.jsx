@@ -9,7 +9,7 @@ function Contact() {
     <section
       className="container my-5 px-3 px-md-4"
       id="Contact"
-      style={{ paddingTop: '8rem' }}
+      style={{ paddingTop: '10rem' }}
     >
       <div className="container text-justify">
         <h3 className="fw-bold mb-3">
