@@ -31,7 +31,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar navbar-dark fixed-top" style={{ backgroundColor: '#0e0e10' }}>
+    <nav className="navbar navbar-dark fixed-top mb-5" style={{ backgroundColor: '#0e0e10' }}>
       <div className="container-fluid py-3">
         <div className="row w-100 text-center text-md-start align-items-center">
           <div className="col-md-4 mb-2 mb-md-0">
