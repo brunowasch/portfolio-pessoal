@@ -106,6 +106,35 @@ function Projects() {
             </div>
           </div>
         </div>
+
+        {/* Batalha Naval */}
+        <div className="col-12 col-md-6 col-lg-4">
+          <div className="card shadow-sm h-100 d-flex flex-column">
+            <div className="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 className="card-title fw-bold">
+                  {idiom === 'en' ? 'Naval Battle (Java)' : 'Batalha Naval em Java'}
+                </h5>
+                <p className="card-text text-justify">
+                  {idiom === 'en'
+                    ? 'A traditional Battleship game developed in Java, running in the terminal. The project applies fundamental programming concepts such as arrays, conditionals, loops, and modularization of code.'
+                    : 'Um jogo tradicional de Batalha Naval desenvolvido em Java, rodado no terminal. O projeto aplica conceitos fundamentais de programação, como arrays, condicionais, laços de repetição e modularização de código.'}
+                </p>
+              </div>
+              <div className="mt-3 d-flex justify-content-center">
+                <a
+                  href="https://github.com/brunowasch/java-naval-battle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-dark d-inline-flex align-items-center gap-2"
+                >
+                  <i className="bi bi-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

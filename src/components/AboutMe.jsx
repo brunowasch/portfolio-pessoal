@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useIdiom } from '../hooks/useIdiom'; 
+import curriculoPDF from '../assets/Currículo de Bruno Waschburger Silva.pdf';
 
 function AboutMe() {
   const idiom = useIdiom();
@@ -35,6 +36,12 @@ function AboutMe() {
           </p>
         </>
       )}
+
+      {/* Currículo */}
+      <a href={curriculoPDF} download="Currículo de Bruno Waschburger Silva.pdf" className="btn btn-primary mt-3">
+        <i class="bi bi-download pe-2"></i>
+        {idiom === 'en' ? 'Download Resume' : 'Baixar Currículo'}
+      </a>
     </div>
   );
 }   
