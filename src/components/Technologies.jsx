@@ -6,6 +6,7 @@ function Technologies() {
 
   const technologies = [
     { nome: "React", icon: "react/react-original.svg" },
+    {nome: "Typescript", icon: "typescript/typescript-original.svg" },
     { nome: "JavaScript", icon: "javascript/javascript-original.svg" },
     { nome: "HTML5", icon: "html5/html5-original.svg" },
     { nome: "CSS3", icon: "css3/css3-original.svg" },

@@ -28,7 +28,7 @@ function Projects() {
       descEn:
         'Terminal racing game with driver and different vehicles; accelerate, brake, refuel and random events.',
       links: [
-        { href: 'https://github.com/brunowasch/projeto-swift', icon: 'bi-github', label: 'GitHub' }
+        { href: 'https://github.com/brunowasch/projeto-swift', icon: 'bi-github', label: 'GitHub' },
       ],
       badge: 'Swift',
     },
@@ -43,6 +43,44 @@ function Projects() {
         { href: 'https://github.com/brunowasch/api-filme-react', icon: 'bi-github', label: 'GitHub' }
       ],
       badge: 'React',
+    },
+    {
+      id: 'teach3035-petshop',
+      title: idiom === 'en' ? 'Pet Shop System (Basic Front-end)' : 'Sistema de Pet Shop (Front-end Básico)',
+      descPt:
+        'Sistema simples de pet shop com HTML, CSS e JavaScript; cadastro, listagem e busca de pets.',
+      descEn:
+        'Simple pet shop system with HTML, CSS and JavaScript; registration, listing and searching pets.',
+      links: [
+        { href: 'https://github.com/brunowasch/teach3035-petshop', icon: 'bi-github', label: 'GitHub' }
+      ],
+      badge: 'HTML/CSS/JS',
+    },
+    {
+      id: 'streamlit-dashboard',
+      title: idiom === 'en' ? 'World Happiness: Interactive Dashboard using Streamlit' : 'Felicidade Mundial: Dashboard Interativo com Streamlit',
+      descPt:
+        'Dashboard interativo em Python com Streamlit, analisando o Relatório de Felicidade Mundial.',
+      descEn:
+        'Interactive dashboard in Python using Streamlit, analyzing the World Happiness Report.',
+      links: [
+        { href: 'https://github.com/brunowasch/dashboard-py streamlit', icon: 'bi-github', label: 'GitHub' },
+        { href: 'https://dashboard-py-prog-ii.streamlit.app', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
+      ],
+      badge: 'Python/Streamlit',
+    },
+    {
+      id: 'delivery-system',
+      title: idiom === 'en' ? 'Delivery System with API Consumption (React + Go)' : 'Sistema de Delivery com consumo de API (React + Go)',
+      descPt:
+        'Sistema de delivery com front-end em React e back-end em Go; consumo de API para visualizar comidas, restaurantes e clientes.',
+      descEn:
+        'Delivery system with React front-end and Go back-end; API consumption to view foods, restaurants and customers.',
+      links: [
+        { href: 'https://github.com/brunowasch/delivery-go', icon: 'bi-github', label: 'GitHub' },
+        { href:'https://brunowasch.github.io', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
+      ],
+      badge: 'React/Go',
     }
   ];
 

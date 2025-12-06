@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useIdiom } from '../hooks/useIdiom'; 
 import curriculoPDF from '../assets/Currículo de Bruno Waschburger Silva.pdf';
+import resumePDF from "../assets/Bruno Waschburger Silva's Resume.pdf";
 import brazilFLag from '../assets/brazil.svg';
 import usaFlag from '../assets/usa.svg';
 
@@ -58,10 +59,15 @@ function AboutMe() {
         </li>
       </ul>
       {/* Currículo */}
-      <a href={curriculoPDF} download="Currículo de Bruno Waschburger Silva.pdf" className="btn btn-primary mt-3">
-        <i class="bi bi-download pe-2"></i>
-        {idiom === 'en' ? 'Download Resume' : 'Baixar Currículo'}
-      </a>
+      {idiom === 'en' ? (
+        <a href={resumePDF} download className="btn btn-primary mb-5">
+          Download Resume
+        </a>
+      ) : (
+        <a href={curriculoPDF} download className="btn btn-primary mb-5">
+          Baixar Currículo
+        </a>
+      )}
     </div>
   );
 }   
