@@ -83,6 +83,39 @@ ul {
   padding: 4px 12px;
 }
 
+.hero-photo-container {
+  position: relative;
+}
+
+.hero-photo {
+  margin-top: -6rem;
+  transition: margin-top 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  .hero-photo {
+    margin-top: -3rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-photo {
+    margin-top: -4rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-photo {
+    margin-top: -6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-photo {
+    margin-top: -7rem;
+  }
+}
+
 .nav-link.active-section {
   color: #007bff !important; 
   font-weight: 600;

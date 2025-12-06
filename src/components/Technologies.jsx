@@ -18,6 +18,7 @@ function Technologies() {
     { nome: "Swift", icon: "swift/swift-original.svg" },
     { nome: "MySQL", icon: "mysql/mysql-original.svg" },
     { nome: "MongoDB", icon: "mongodb/mongodb-original.svg" },
+    { nome: "Prisma", icon: "prisma/prisma-original.svg" },
     { nome: "Git", icon: "git/git-original.svg" },
   ];
 
@@ -26,7 +27,7 @@ function Technologies() {
       <h5 className="fw-bold mb-4">
         {idiom === 'en' ? 'Technologies I Use' : 'Tecnologias que utilizo'}
       </h5>
-      <div className="d-flex flex-wrap gap-4">
+      <div className="d-flex flex-wrap gap-3">
         {technologies.map((tech, index) => (
           <div key={index} className="text-center">
             <img

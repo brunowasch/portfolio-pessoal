@@ -12,7 +12,7 @@ function Hero() {
       style={{ scrollMarginTop: '100px', paddingTop: '2rem' }}
     >
       <div className="row align-items-center mt-5">
-        <div className="col-md-8">
+        <div className="col-md-8 mt-4 mt-md-0">
           <h2 className="text-primary fs-1 fw-bold title-font highlight-shadow">
             Bruno Waschburger Silva
           </h2>
@@ -24,11 +24,11 @@ function Hero() {
           <AboutMe />
         </div>
 
-        <div className="col-md-4 d-flex justify-content-center align-items-center mt-4 mt-md-0">
+        <div className="col-md-4 d-flex justify-content-center align-items-center mt-4 mt-md-0 hero-photo-container">
           <img
             src={portfolioPhoto}
             alt="Bruno Waschburger Silva"
-            className="img-fluid rounded-circle ms-md-5"
+            className="img-fluid rounded-circle ms-md-5 hero-photo"
           />
         </div>
       </div>
