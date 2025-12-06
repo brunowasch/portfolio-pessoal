@@ -61,10 +61,12 @@ function AboutMe() {
       {/* Currículo */}
       {idiom === 'en' ? (
         <a href={resumePDF} download className="btn btn-primary mb-5">
+          <i class="bi bi-download me-2"></i>
           Download Resume
         </a>
       ) : (
         <a href={curriculoPDF} download className="btn btn-primary mb-5">
+          <i class="bi bi-download me-2"></i>
           Baixar Currículo
         </a>
       )}
