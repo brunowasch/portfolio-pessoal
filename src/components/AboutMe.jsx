@@ -1,6 +1,9 @@
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useIdiom } from '../hooks/useIdiom'; 
 import curriculoPDF from '../assets/Currículo de Bruno Waschburger Silva.pdf';
+import brazilFLag from '../assets/brazil.svg';
+import usaFlag from '../assets/usa.svg';
 
 function AboutMe() {
   const idiom = useIdiom();
@@ -36,7 +39,24 @@ function AboutMe() {
           </p>
         </>
       )}
-
+      {/* Idioms */}
+      <h4 className="fw-bold mt-4">
+        {idiom === 'en' ? 'Languages I speak' : 'Idiomas que falo'}
+      </h4>
+      <ul>
+        <li>
+            <div className="mt-4 mb-4 d-flex align-items-center gap-2">
+                <img src={brazilFLag} width={30} height={30} alt="Brazil flag"/>
+                {idiom === 'en' ? 'Portuguese - Native' : 'Português - Nativo'}
+            </div>
+          </li>
+        <li>
+          <div className="mb-4 d-flex align-items-center gap-2">
+              <img src={usaFlag} width={30} height={30} alt="USA flag"/>
+              {idiom === 'en' ? 'English - Advanced' : 'Inglês - Avançado'}
+          </div>
+        </li>
+      </ul>
       {/* Currículo */}
       <a href={curriculoPDF} download="Currículo de Bruno Waschburger Silva.pdf" className="btn btn-primary mt-3">
         <i class="bi bi-download pe-2"></i>
