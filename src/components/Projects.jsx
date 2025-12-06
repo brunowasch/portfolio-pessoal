@@ -78,7 +78,7 @@ function Projects() {
         'Delivery system with React front-end and Go back-end; API consumption to view foods, restaurants and customers.',
       links: [
         { href: 'https://github.com/brunowasch/delivery-go', icon: 'bi-github', label: 'GitHub' },
-        { href:'https://brunowasch.github.io', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
+        { href:'https://brunowasch.github.io/delivery-go', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
       ],
       badge: 'React/Go',
     }
