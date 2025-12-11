@@ -10,7 +10,7 @@ function Events() {
     const events = [
         {
         id: 'HackaTime 2024',
-        title: 'HackaTime 2024',
+        title: 'Hackatime 2024',
         year: 2024,
         placement: 1,
         descPt:
@@ -50,7 +50,7 @@ function Events() {
         },
         {
         id: 'Hackatime 2025',
-        title: 'HackaTime 2025',
+        title: 'Hackatime 2025',
         year: 2025,
         placement: null,
         mention: true,
