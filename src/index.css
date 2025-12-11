@@ -147,6 +147,17 @@ h1 {
   line-height: 1.1;
 }
 
+.bg-bronze {
+  background-color: #cd7f32 !important;
+  color: #fff !important;
+}
+
+.bg-info {
+  background-color: #acd7f3 !important;
+  color: #0b2233 !important;
+  font-weight: 600;
+}
+
 .contact-link {
   transition: all 0.3s ease-in-out;
 }

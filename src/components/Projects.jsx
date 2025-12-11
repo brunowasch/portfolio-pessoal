@@ -21,26 +21,15 @@ function Projects() {
       badge: 'Full-Stack',
     },
     {
-      id: 'swift-racing',
-      title: idiom === 'en' ? 'POO Racing Game (Swift)' : 'Corrida POO em Swift',
-      descPt:
-        'Jogo de corrida no terminal com piloto e veículos diferentes; ações de acelerar, frear, reabastecer e eventos aleatórios.',
-      descEn:
-        'Terminal racing game with driver and different vehicles; accelerate, brake, refuel and random events.',
-      links: [
-        { href: 'https://github.com/brunowasch/projeto-swift', icon: 'bi-github', label: 'GitHub' },
-      ],
-      badge: 'Swift',
-    },
-    {
       id: 'movie-react',
-      title: idiom === 'en' ? 'Movie App (React)' : 'API Filme em React',
+      title: idiom === 'en' ? 'Movie App (React)' : 'Consumo de API de Filmes com React',
       descPt:
         'App em React que consome uma API de filmes; rotas dinâmicas, pôsteres e estados de carregamento.',
       descEn:
         'React app that consumes a movies API; dynamic routes, posters and loading states.',
       links: [
-        { href: 'https://github.com/brunowasch/api-filme-react', icon: 'bi-github', label: 'GitHub' }
+        { href: 'https://github.com/brunowasch/api-filme-react', icon: 'bi-github', label: 'GitHub' },
+        { href: 'https://api-filme-react-gules.vercel.app', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
       ],
       badge: 'React',
     },
@@ -52,7 +41,8 @@ function Projects() {
       descEn:
         'Simple pet shop system with HTML, CSS and JavaScript; registration, listing and searching pets.',
       links: [
-        { href: 'https://github.com/brunowasch/teach3035-petshop', icon: 'bi-github', label: 'GitHub' }
+        { href: 'https://github.com/brunowasch/teach3035-petshop', icon: 'bi-github', label: 'GitHub' },
+        { href: 'https://caotinhozen-petshop.vercel.app', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
       ],
       badge: 'HTML/CSS/JS',
     },
@@ -81,6 +71,18 @@ function Projects() {
         { href:'https://brunowasch.github.io/delivery-go', icon: 'bi-browser-chrome', label: idiom === 'en' ? 'See project' : 'Ver projeto' }
       ],
       badge: 'React/Go',
+    },
+    {
+      id: 'swift-racing',
+      title: idiom === 'en' ? 'POO Racing Game (Swift)' : 'Corrida POO em Swift',
+      descPt:
+        'Jogo de corrida no terminal com piloto e veículos diferentes; ações de acelerar, frear, reabastecer e eventos aleatórios.',
+      descEn:
+        'Terminal racing game with driver and different vehicles; accelerate, brake, refuel and random events.',
+      links: [
+        { href: 'https://github.com/brunowasch/projeto-swift', icon: 'bi-github', label: 'GitHub' },
+      ],
+      badge: 'Swift',
     }
   ];
 

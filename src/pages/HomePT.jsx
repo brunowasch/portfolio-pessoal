@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
+import Events from "../components/Events";
 import Contact from "../components/Contact";
 
 function HomePT() {
@@ -9,6 +10,7 @@ function HomePT() {
       <Hero />
       <Technologies />
       <Projects />
+      <Events />
       <Contact />
     </main>
   );

@@ -18,8 +18,8 @@ function Hero() {
           </h2>
           <p className="fs-5">
             {idiom === 'en'
-              ? 'Full-Stack Developer focused on creating fast, reliable, and user-centric web applications.'
-              : 'Desenvolvedor Full-Stack focado em criar aplicações web rápidas, confiáveis e centradas no usuário'}
+              ? 'Full-Stack Developer focused on creating reliable and user-centric web applications.'
+              : 'Desenvolvedor Full-Stack focado em criar aplicações web confiáveis e centradas no usuário.'}
           </p>
           <AboutMe />
         </div>
