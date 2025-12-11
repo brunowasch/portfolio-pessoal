@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useIdiom } from '../hooks/useIdiom'; 
-import curriculoPDF from '../assets/Currículo de Bruno Waschburger Silva.pdf';
-import resumePDF from "../assets/Bruno Waschburger Silva's Resume.pdf";
+import curriculoPDF from '../assets/Curriculo-Bruno-Waschburger-Silva.pdf';
+import resumePDF from "../assets/Bruno-Waschburger-Silva-Resume.pdf";
 import brazilFLag from '../assets/brazil.svg';
 import usaFlag from '../assets/usa.svg';
 
@@ -71,12 +71,12 @@ function AboutMe() {
 
       {/* Currículo/Resume */}
       {idiom === 'en' ? (
-        <a href={resumePDF} download className="btn btn-primary mb-5">
+        <a href={resumePDF} download="Bruno Waschburger Silva's Resume" className="btn btn-primary mb-5">
           <i className="bi bi-download me-2" />
           Download Resume
         </a>
       ) : (
-        <a href={curriculoPDF} download className="btn btn-primary mb-5">
+        <a href={curriculoPDF} download="Currículo de Bruno Waschburger Silva" className="btn btn-primary mb-5">
           <i className="bi bi-download me-2" />
           Baixar Currículo
         </a>
