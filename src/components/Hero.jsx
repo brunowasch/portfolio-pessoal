@@ -12,7 +12,7 @@ function Hero() {
       style={{ scrollMarginTop: '100px', paddingTop: '2rem' }}
     >
       <div className="row align-items-center mt-5">
-        <div className="col-md-8 mt-4 mt-md-0">
+        <div className="col-md-8 mt-5 mt-md-0">
           <h2 className="text-primary fs-1 fw-bold title-font highlight-shadow">
             Bruno Waschburger Silva
           </h2>
